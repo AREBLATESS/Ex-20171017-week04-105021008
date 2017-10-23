@@ -23,7 +23,7 @@ public class MainFrame extends JFrame{
         cp = this.getContentPane();
         cp.setLayout(new BorderLayout());
         this.setBounds(100,100,400,300);
-        this.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+//        this.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         cp.add(Jtf,BorderLayout.NORTH);
         cp.add(jpn,BorderLayout.CENTER);
 
@@ -32,7 +32,7 @@ public class MainFrame extends JFrame{
         this.addWindowListener(new WindowAdapter() {
             @Override
             public void windowClosing(WindowEvent e) {
-                super.windowClosing(e);
+               super.windowClosing(e);
                 lgf.setVisible(true);
             }
         });

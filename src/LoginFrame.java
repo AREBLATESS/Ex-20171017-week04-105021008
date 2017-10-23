@@ -43,7 +43,7 @@ public class LoginFrame extends JFrame {
         JbtnCom.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                if(JTa.getText().equals("123")&&new String(JPw.getPassword()).equals("abc") ){
+                if(JTa.getText().equals("h304")&&new String(JPw.getPassword()).equals("23323456") ){
                     MainFrame mFrm = new MainFrame(LoginFrame.this);
                     setDefaultCloseOperation(LoginFrame.DISPOSE_ON_CLOSE);
                     mFrm.setVisible(true);
